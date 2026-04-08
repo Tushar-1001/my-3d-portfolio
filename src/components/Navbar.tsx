@@ -63,6 +63,9 @@ export default function Navbar() {
           <a href="https://linkedin.com/in/tusharsaini1001" target="_blank" rel="noreferrer" className="text-white/70 hover:text-neon-blue transition-colors">
             <Linkedin size={20} />
           </a>
+          <a href="mailto:sainitushar51@gmail.com" className="text-white/70 hover:text-neon-blue transition-colors">
+            <Mail size={20} />
+          </a>
         </div>
 
         {/* Mobile Menu Toggle */}
