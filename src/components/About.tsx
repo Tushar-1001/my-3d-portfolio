@@ -51,7 +51,7 @@ export default function About() {
             transition={{ duration: 0.8 }}
             className="grid grid-cols-1 sm:grid-cols-2 gap-6"
           >
-            <div className="glass p-8 rounded-3xl space-y-4 hover:border-neon-blue/50 transition-colors group">
+            <div className="glass p-8 rounded-3xl space-y-4 hover:border-neon-blue/50 transition-colors group h-full">
               <div className="w-12 h-12 rounded-2xl bg-neon-blue/10 flex items-center justify-center text-neon-blue group-hover:scale-110 transition-transform">
                 <Terminal size={24} />
               </div>
@@ -59,7 +59,7 @@ export default function About() {
               <p className="text-sm text-white/50">Expertise in Python, Node.js, and building high-performance APIs.</p>
             </div>
             
-            <div className="glass p-8 rounded-3xl space-y-4 translate-y-6 hover:border-neon-purple/50 transition-colors group">
+            <div className="glass p-8 rounded-3xl space-y-4 hover:border-neon-purple/50 transition-colors group h-full">
               <div className="w-12 h-12 rounded-2xl bg-neon-purple/10 flex items-center justify-center text-neon-purple group-hover:scale-110 transition-transform">
                 <Database size={24} />
               </div>
@@ -67,7 +67,7 @@ export default function About() {
               <p className="text-sm text-white/50">Building pipelines, scraping data, and normalization at scale.</p>
             </div>
 
-            <div className="glass p-8 rounded-3xl space-y-4 hover:border-neon-pink/50 transition-colors group">
+            <div className="glass p-8 rounded-3xl space-y-4 hover:border-neon-pink/50 transition-colors group h-full sm:col-span-2">
               <div className="w-12 h-12 rounded-2xl bg-neon-pink/10 flex items-center justify-center text-neon-pink group-hover:scale-110 transition-transform">
                 <Code2 size={24} />
               </div>
